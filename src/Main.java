@@ -14,7 +14,7 @@ public class Main extends Application {
     public static void render(GraphicsContext gc){
         gc.clearRect(0,0,300,300);
         gc.setFill(Color.WHEAT);
-        gc.fillRect(0,0,300,300);
+        MapRenderer.draw(gc);
 
     }
     public static void update(){
